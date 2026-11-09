@@ -1,0 +1,15 @@
+{
+  "name": "Échecs Coach",
+  "short_name": "Échecs Coach",
+  "description": "Parties commentées, exercices, leçons et ouvertures pour progresser aux échecs.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#302e2b",
+  "theme_color": "#262421",
+  "lang": "fr",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

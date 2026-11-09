@@ -1,0 +1,16 @@
+{
+  "name": "echecs-coach",
+  "private": true,
+  "type": "module",
+  "description": "Outils de développement (génération d'exercices, validation du contenu). L'appli elle-même n'a besoin d'aucune installation.",
+  "scripts": {
+    "serve": "python3 -m http.server 8123",
+    "validate": "node tools/validate.mjs",
+    "puzzles:gen": "node tools/gen-puzzles.mjs puzzles-raw.jsonl 500 1",
+    "puzzles:build": "node tools/finalize-puzzles.mjs puzzles-raw.jsonl"
+  },
+  "devDependencies": {
+    "chess.js": "^1.4.0",
+    "stockfish": "^19.0.1"
+  }
+}
