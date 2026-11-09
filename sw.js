@@ -1,5 +1,5 @@
 // Offline support: stale-while-revalidate for every file of the app.
-const CACHE = 'echecs-coach-v1';
+const CACHE = 'echecs-coach-v2';
 const CORE = ['./', 'index.html', 'css/style.css', 'css/pieces.css', 'js/app.js', 'js/util.js', 'js/board.js', 'js/engine.js', 'js/coach.js', 'js/lib/chess.js',
   'js/views/play.js', 'js/views/review.js', 'js/views/puzzles.js', 'js/views/lessons.js', 'js/views/openings.js', 'js/views/analysis.js',
   'js/data/lessons.js', 'js/data/openings.js', 'js/data/puzzles.js', 'engine/stockfish-19-lite-single.js', 'engine/stockfish-19-lite-single.wasm',
